@@ -9,6 +9,7 @@ function superbowlWin(record) {
   if(winGame != undefined) { 
     return winGame.year
   } else { 
+    return winGame 
   
   
 
