@@ -7,7 +7,7 @@ function testFunc() {
 function superbowlWin(record) { 
   let winGame = record.find(function (game) {return game.result === "W"})
   if(winGame != undefined) { 
-    return 
+    return winGame.year
   
   
 
