@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 function superbowlWin(record) { 
-  let winGame = record.find(function (game) {return game.result === W})
+  let winGame = record.find(function (game) {return game.result === "W"})
   
   
 } 
